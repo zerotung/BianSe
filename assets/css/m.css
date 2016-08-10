@@ -2,6 +2,8 @@ body{ background-color: #F06060; color: #fff; font: 12px/1.5 '微软雅黑';
 }
 body>a{ display: none; }
 
+a{}
+
 .page{
     position: absolute;
     top: 0;
@@ -11,7 +13,7 @@ body>a{ display: none; }
 }
 .hide{display: none;}
 #loading{
-    display: block;
+    /*display: block;*/
     font-size: 30px;
     line-height: 500px;
     text-align: center;
